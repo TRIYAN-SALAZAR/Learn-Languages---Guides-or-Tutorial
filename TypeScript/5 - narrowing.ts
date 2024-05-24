@@ -52,6 +52,5 @@ function useCharacter(character: Characters) {
         Sakura: (character as Sakura).heal(),
         Kakashi: (character as Kakashi).attack()
     }
-
     actionByCharacter[characterIs]()
 }
