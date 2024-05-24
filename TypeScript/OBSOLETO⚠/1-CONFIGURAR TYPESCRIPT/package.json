@@ -1,0 +1,16 @@
+{
+  "name": "aplicacion",
+  "version": "1.0.0",
+  "description": "prueba de typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "triyan",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.9.4"
+  }
+}
