@@ -172,6 +172,8 @@ const tresEnRayaOGato: GameBoard = [
 type RGB = [number, number, number];
 const rgb: RGB = [255, 55, 25]; // 0 <-> 255
 
+// Para que una tupla no pueda ser modificado, se usa readonly, o deja de ser mutuable hasta cierto punto
+type coordenadas = readonly [number, number];
+
 export {createHero, registerCreature, newFormCreateHero}
 export {Hero, Creature, CreaturesInfo, CreaturesBasicInfo, PowerScale, RegionContinent, HeroId}
-
